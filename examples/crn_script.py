@@ -17,6 +17,6 @@ def main():
     plt.title('approximate majority protocol')
     plt.xlim(0, sim.times[-1])
     plt.ylim(0, n)
-
+    plt.savefig('approx_majority.png', dpi=300)
 if __name__ == '__main__':
     main()
